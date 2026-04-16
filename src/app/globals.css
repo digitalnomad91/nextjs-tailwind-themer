@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #1f1f1f;
+  --color-foreground: #dddddd;
+  --color-surface: #262626;
+  --color-elevated: #2f2f2f;
+  --color-muted: #a7a7a7;
+  --color-accent: #a0a0a0;
+  --color-border: #3d3d3d;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  transition:
+    background-color 200ms ease,
+    color 200ms ease;
+}
